@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-weight: 400;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col_lg_2{
+    width: 15%;
+}
+.header_logo{
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-size: 22px;
+    color: #fff;
+}
+.header_logo_sub{
+    font-family: 'Anton', sans-serif;
+    color: red;
+}
+.col_lg_10{
+    width: 80%;
+}
+.nav_bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav_bar li a{
+    color: #fff;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+
+}
+
+.nav_bar li a.active{
+    color: red;
+}
+
+
+
+
+
+.banner{
+    background: linear-gradient(45deg, rgba(0, 50, 0, .60), rgba(0, 50, 0, .60)), url(images/01.jpg);
+    background-repeat: no-repeat;
+    background-position: middle center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col_md_8{
+    width: 60%;
+}
+.col_md_8 h1{
+    color: #fff;
+    font-size: 45px;
+}
+.col_md_8 span{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.col_md_8 p{
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.col_md_8 ul{
+    display: flex;
+    align-items: center;
+}
+.col_md_8 ul li{
+    margin-right: 10px;
+}
+.col_md_8 ul li a{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    margin: o 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.col_md_8 button{
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.col_md_4{
+    width: 40%;
+    position: relative;
+}
+.col_md_4 img{
+    width: 100%;
+    height: 500px;
+    border-radius: 50%;
+}
